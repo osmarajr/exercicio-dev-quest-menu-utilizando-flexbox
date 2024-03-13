@@ -1,0 +1,41 @@
+body{
+    font-family: var(--font-global);
+    margin-inline: 30px;
+    margin-block: 10px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+/* logotipo */
+.header.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.header.logotipo p{
+    font-family: var(--font-global);
+    font-weight: 700;
+}
+
+/* menu */
+.header.menu ul{
+    display: flex;
+    gap: 8px;
+}
+.header.menu li, span{
+    padding: 7px;
+
+}
+.header.menu li:hover{
+    background-color: var(--background-color-hover);
+    color: var(--color-hover);
+    cursor: pointer;
+}
+
+.header.menu span{
+    background-color: var(--background-color-hover);
+    color: var(--color-hover);
+    border-radius: 5px;
+}
+
