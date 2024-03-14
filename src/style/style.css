@@ -14,17 +14,21 @@ body{
 }
 
 .header.logotipo p{
+    font-size: 20px;
     font-family: var(--font-global);
     font-weight: 700;
 }
 
 /* menu */
 .header.menu ul{
+    font-size: 15px;
     display: flex;
     gap: 8px;
+    align-items: center;
 }
-.header.menu li, span{
-    padding: 7px;
+.header.menu li, button{
+    padding-inline: 7px;
+    padding-block: 11px;
 
 }
 .header.menu li:hover{
@@ -32,10 +36,10 @@ body{
     color: var(--color-hover);
     cursor: pointer;
 }
-
-.header.menu span{
+.header.menu button{
     background-color: var(--background-color-hover);
     color: var(--color-hover);
     border-radius: 5px;
+    border: none;
 }
 
