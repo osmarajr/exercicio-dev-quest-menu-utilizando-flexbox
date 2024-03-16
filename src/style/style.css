@@ -1,15 +1,15 @@
 body{
     font-family: var(--font-global);
-    margin-inline: 30px;
-    margin-block: 10px;
 }
 .header{
     display: flex;
     justify-content:space-between;
-    padding: 45px;
+    margin: 20px;
 }
 /* logotipo */
 .header.logotipo {
+    width: 45px;
+    height: 42px;
     display: flex;
     align-items: center;
 }
@@ -25,10 +25,10 @@ body{
 /* menu */
 .header.menu ul{
     display: flex;
-    gap: 8px;
+    gap: 30px;
     align-items: center;
 }
-.header.menu li a, button{
+.header.menu li a{
     padding-inline: 7px;
     padding-block: 11px;
     font-weight: 400;
@@ -43,5 +43,6 @@ body{
     color: var(--color-hover);
     border-radius: 10px;
     border: none;
+    padding: 10px 21px 11px 21px;
 }
 

@@ -1,6 +1,13 @@
 @media (max-width: 768px) {
-    .header, ul{
+    body{
+        font-size: 40px;
+    }
+    .header,.menu ul{
         flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        padding-top: 5rem;
     }
 }
 /* ajeitar tamanho dos elementos utilizando os dados fornecidos no figma */
